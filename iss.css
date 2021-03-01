@@ -1,0 +1,44 @@
+body{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/International_Space_Station_after_undocking_of_STS-132.jpg/1200px-International_Space_Station_after_undocking_of_STS-132.jpg")
+}
+.nav ul {
+    height: 60px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+  }
+
+  .nav ul li {
+    border: 2px solid red;
+    color: white ;
+    font-size: 17px;
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    list-style: none;
+    padding: 0 10px;
+    transition: background .5s;
+  }
+
+  .btn:hover, .nav ul li:hover {
+    background-color: red;
+    cursor: pointer;
+    transition: background .5s;
+}
+h2{
+    font-family: arial;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+p{
+    font-family: helvetica;
+    font-size: 20px
+    color: white;
+}
+marquee{
+    font-weight: bold;
+    font-size: 20px;
+    color: yellow;
+}
